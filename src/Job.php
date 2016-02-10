@@ -1,9 +1,12 @@
 <?php
 
 class Job {
-    private $job;
+    private $position;
+    private $company;
+    private $description;
+    private $years;
 
-    function __construct($new_job)
+    function __construct($new_position, )
     {
         $this->job = $new_job;
     }
